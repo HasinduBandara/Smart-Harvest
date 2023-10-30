@@ -24,11 +24,6 @@ const BlogSchema = new Schema({
         required: true
     },
     
-    titleo: {
-        type: String,
-        required: true  //sss
-    },
-
     content: {
         type: String,
         required: true
